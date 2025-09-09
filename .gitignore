@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+
+# Environments
+venv/
+env/
+.env
+.venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Test cache
+.pytest_cache/
