@@ -4,15 +4,19 @@ from tkinter import ttk, messagebox
 from gui.bisection_app import open_bisection_window
 from gui.false_position_app import open_false_position_window
 from gui.golden_ratio_app import open_golden_ratio_window
+from gui.quadratic_interpolation_app import open_quadratic_interpolation_window
+from gui.newton_raphson_app import open_newton_raphson_window
+from gui.newton_app import open_newton_window
+from gui.random_search_app import open_random_search_window
 
 METHODS = {
     "Bisección": open_bisection_window,
     "Falsa Posición": open_false_position_window,
     "Razón Dorada": open_golden_ratio_window,
-    "Interpolación Cuadrática": None,
-    "Newton": None,
-    "Newton-Raphson": None,
-    "Búsqueda Aleatoria": None,
+    "Interpolación Cuadrática": open_quadratic_interpolation_window,
+    "Newton": open_newton_window,
+    "Newton-Raphson": open_newton_raphson_window,
+    "Búsqueda Aleatoria": open_random_search_window,
 }
 
 def launch_selected(root, method_name: str):
