@@ -1,26 +1,26 @@
-\# optimization\_project
+# optimization_project
 
+Aplicación en **Python con Tkinter** que implementa diferentes **métodos numéricos de optimización**.  
+Permite ingresar funciones, intervalos y tolerancias, mostrando los resultados en una interfaz gráfica interactiva.
 
+## Métodos disponibles
 
-Pequeña GUI en Tkinter con métodos numéricos de optimización:
+- Bisección → encuentra raíces dentro de un intervalo donde la función cambia de signo.  
+- Falsa posición → variante que mejora la convergencia mediante interpolación lineal.  
+- Razón dorada → búsqueda de mínimos o máximos sin necesidad de derivadas.  
 
-\- Bisección
+## Próximamente
 
-\- Falsa posición
+- Interpolación cuadrática  
+- Newton y Newton-Raphson  
+- Búsqueda aleatoria  
 
-\- Razón dorada
+## Cómo ejecutar
 
-\- (próximamente más métodos)
-
-
-
-\## Cómo ejecutar
-
-1\. Activar entorno virtual:
-
-&nbsp;  ```bash
-
-&nbsp;  venv\\Scripts\\activate
-
-
-
+1. Activar entorno virtual:
+   ```bash
+   venv\Scripts\activate
+2. Instalar dependencias:
+   pip install -r requirements.txt
+3. Ejecutar la aplicación:
+   python main.py
